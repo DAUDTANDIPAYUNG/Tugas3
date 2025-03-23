@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/halaman"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".halaman">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/back"
+        android:gravity="center"
+        android:text="Keluar"
+        android:layout_marginTop="30dp"
+        android:textColor="#228BE6"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="140dp"
+        android:drawableRight="@drawable/hand"
+        android:text=" Berikan Komentarmu !"
+        android:textColor="#228BE6"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:background="#bbbbbb"
+        android:ems="10"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/buttonkirim"
+        android:layout_width="300dp"
+        android:background="#228BE6"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Kirim" />
+
+
+</LinearLayout>
